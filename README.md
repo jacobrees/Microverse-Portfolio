@@ -33,8 +33,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-## Built With
-
 - HTML
 - CSS
 <!-- Features -->
