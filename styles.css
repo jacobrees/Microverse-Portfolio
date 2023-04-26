@@ -129,7 +129,6 @@
   }
 }
 
-/* Large devices */
 @media only screen and (min-width: 1008px) {
   .navbar {
     padding: 20px 200px;
@@ -138,9 +137,4 @@
   .headline-section-wrapper {
     padding-left: 200px;
   }
-}
-
-/* XL devices */
-@media only screen and (min-width: 1200px) {
-  /* ...code... */
 }
