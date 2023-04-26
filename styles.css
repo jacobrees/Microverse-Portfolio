@@ -1,4 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C3A39;
+    padding: 20px;
+}
+
+.navbar-logo {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hamburger-menu {
+    width: 30px;
+    filter: invert(100%);
+}
 
 @media only screen and (min-width: 768px) {
 }
