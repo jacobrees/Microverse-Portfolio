@@ -5,16 +5,24 @@
 }
 
 .navbar {
+  background-color: #3c3a39;
+  padding: 20px;
+}
+
+.navbar-wrapper {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #3c3a39;
-  padding: 20px;
 }
 
 .navbar-logo {
   color: white;
   font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+  display: none;
 }
 
 .hamburger-menu {
@@ -66,5 +74,57 @@
   rotate: -17deg;
 }
 
+.headline-links {
+  display: flex;
+  align-items: center;
+}
+
+.headline-link {
+  margin-right: 10px;
+}
+
 @media only screen and (min-width: 768px) {
+  .navbar {
+    padding: 20px 200px;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-link {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+  }
+
+  .headline-section {
+    justify-content: flex-start;
+  }
+
+  .headline-section-wrapper {
+    width: 50%;
+    padding-left: 200px;
+  }
+
+  .headline-title {
+    font-size: 72px;
+  }
+
+  .headline-software-developer {
+    font-size: 32px;
+  }
+
+  .headline-illustration {
+    right: -100px;
+    width: 600px;
+  }
 }
