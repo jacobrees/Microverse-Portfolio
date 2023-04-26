@@ -91,6 +91,7 @@
   .hamburger-menu {
     display: none;
   }
+
   .nav-links {
     display: flex;
     justify-content: space-between;
@@ -129,7 +130,7 @@
 }
 
 /* Large devices */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1008px) {
   .navbar {
     padding: 20px 200px;
   }
