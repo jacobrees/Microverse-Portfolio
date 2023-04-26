@@ -13,6 +13,7 @@
   - [Setup](#setup)
   - [Usage](#usage)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -84,6 +85,17 @@ To run the project, simply open the index.html file in your web browser.
 - Linkedin: [jacob-rees](https://www.linkedin.com/in/jacob-rees)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Projects Section**
+- [ ] **About Me Section**
+- [ ] **Mobile Navigation**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTRIBUTING -->
 
