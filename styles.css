@@ -19,6 +19,12 @@
 .navbar-logo {
   color: white;
   font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
 }
 
 .nav-link {
@@ -77,6 +83,10 @@
 .headline-links {
   display: flex;
   align-items: center;
+}
+
+.headline-links li {
+  list-style-type: none;
 }
 
 .headline-link {
