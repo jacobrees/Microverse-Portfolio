@@ -180,6 +180,59 @@
   color: #5b5957;
 }
 
+.other-project-wrapper {
+  width: 325px;
+  height: 300px;
+  margin: 0 auto;
+  background-image: url("imgs/other-projects.png");
+  display: flex;
+  align-items: flex-end;
+}
+
+.other-project-title {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: white;
+  margin: 0 0 20px 20px;
+}
+
+.other-project-description {
+  font-family: "Inter", sans-serif;
+  color: white;
+  margin: 0 0 20px 20px;
+}
+
+.other-project-tags {
+  display: flex;
+  list-style-type: none;
+}
+
+.other-project-tag {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 12px;
+  margin: 0 10px 20px 20px;
+  font-size: 15px;
+  background-color: #5c5c69;
+  padding: 10px;
+}
+
+.other-project-see-project-btn {
+  background-color: #ff6b00;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}
+
 @media only screen and (min-width: 768px) {
   .navbar {
     padding: 20px 20px;
