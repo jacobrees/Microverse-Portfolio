@@ -339,6 +339,7 @@
   font-family: "inter", sans-serif;
   font-size: 32px;
   color: white;
+  list-style-type: none;
 }
 
 .skill-wrapper {
