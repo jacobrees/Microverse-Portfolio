@@ -93,6 +93,93 @@
   margin-right: 10px;
 }
 
+.works-title {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.works-title-line {
+  width: 90%;
+  height: 2px;
+  background-color: #c7c7c7;
+  margin: 50px auto;
+}
+
+.main-project-wrapper {
+  width: 325px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.main-project-img {
+  width: 325px;
+  margin: 0 auto;
+}
+
+.main-project-title {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #091e42;
+  margin: 25px 0;
+}
+
+.main-project-description {
+  font-family: "Inter", sans-serif;
+  color: #091e42;
+}
+
+.main-project-tags {
+  display: flex;
+  margin: 10px 0;
+  list-style-type: none;
+}
+
+.main-project-tag {
+  font-family: "Inter", sans-serif;
+  color: #091e42;
+  font-size: 12px;
+  margin: 10px 0;
+  margin-right: 10px;
+  font-size: 15px;
+  border: 1px solid #8993a4;
+  padding: 10px;
+}
+
+.see-project-btn {
+  background-color: #ff6b00;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.see-project-btn:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+}
+
+.see-project-btn:focus {
+  background-color: #ff6b00;
+  color: white;
+}
+
+.see-project-btn:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
 @media only screen and (min-width: 768px) {
   .navbar {
     padding: 20px 20px;
