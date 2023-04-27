@@ -238,6 +238,22 @@
   padding: 10px 0;
 }
 
+.other-project-see-project-btn:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+}
+
+.other-project-see-project-btn:focus {
+  background-color: #ff6b00;
+  color: white;
+}
+
+.other-project-see-project-btn:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
+
 .about-me-section {
   margin-top: 100px;
   width: 100%;
